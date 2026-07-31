@@ -1,13 +1,38 @@
+import { ProductCard } from "@/components/product-card";
+import type { ProductCardData } from "@/lib/types";
+
+const sampleCards: ProductCardData[] = [
+  {
+    retailerName: "Magazine Luiza",
+    productName: "Fone Bluetooth",
+    couponDescription: "10% OFF no cupom",
+    price: 89.9,
+  },
+  {
+    retailerName: "Mercado Livre",
+    productName: "Smartwatch",
+    couponDescription: "Frete grátis",
+    price: 129.9,
+  },
+  {
+    retailerName: "Amazon",
+    productName: "Caixa de Som",
+    couponDescription: "15% OFF no cupom",
+    price: 199.9,
+  },
+];
+
 export default function Home() {
   return (
-    <div>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-          <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-            Achei Preço BOM! - Melhores achadinhos de preços na internet, com base em dados de histórico de preços.
-          </p>
-        </div>
-      </main>
-    </div>
+    <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <h1 className="mb-6 text-center text-2xl font-bold text-foreground">
+        Achei Preço BOM!
+      </h1>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {sampleCards.map((card) => (
+          <ProductCard key={card.productName} {...card} />
+        ))}
+      </div>
+    </main>
   );
 }
