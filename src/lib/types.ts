@@ -2,6 +2,7 @@
  * Dados necessários para renderizar um card de produto no portal.
  */
 export interface ProductCardData {
+  id: number;
   /** Nome da varejista (ex.: "Magazine Luiza", "Mercado Livre"). */
   retailerName: string;
   /** Referência opcional ao logo da varejista. Ausente usa placeholder. */

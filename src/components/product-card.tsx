@@ -49,7 +49,7 @@ function ProductCardImage() {
     <div
       aria-label="Imagem do produto"
       role="img"
-      className="relative w-full overflow-hidden rounded-md bg-muted aspect-[4/3]"
+      className="relative w-full overflow-hidden rounded-md bg-muted aspect-4/3"
     >
       <svg
         aria-hidden="true"
