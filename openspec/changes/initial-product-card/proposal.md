@@ -1,6 +1,6 @@
 ## Why
 
-O portal "Achei Preço BOM" precisa de sua primeira peça de interface: o card de produto. Sem ele, não há como exibir as promoções de varejistas (Magazine Luiza, Mercado Livre, Shopee, Amazon, etc.) que são o coração do produto. Este change estabelece o componente fundamental sobre o qual toda a experiência do portal será construída.
+O portal "Avisei Preço BOM" precisa de sua primeira peça de interface: o card de produto. Sem ele, não há como exibir as promoções de varejistas (Magazine Luiza, Mercado Livre, Shopee, Amazon, etc.) que são o coração do produto. Este change estabelece o componente fundamental sobre o qual toda a experiência do portal será construída.
 
 ## What Changes
 

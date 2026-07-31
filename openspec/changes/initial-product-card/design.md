@@ -1,6 +1,6 @@
 ## Context
 
-O projeto "Achei Preço BOM" é um portal de achadinhos que exibe promoções de varejistas brasileiros. Atualmente o projeto é um esqueleto Next.js 16 App Router com Tailwind CSS v4 e shadcn/ui já configurado. A página inicial (`src/app/page.tsx`) contém apenas boilerplate. Este change introduz o primeiro componente real: o card de produto.
+O projeto "Avisei Preço BOM" é um portal de achadinhos que exibe promoções de varejistas brasileiros. Atualmente o projeto é um esqueleto Next.js 16 App Router com Tailwind CSS v4 e shadcn/ui já configurado. A página inicial (`src/app/page.tsx`) contém apenas boilerplate. Este change introduz o primeiro componente real: o card de produto.
 
 A referência visual está em `doc/img/cards.png` — um card com: logo da varejista + nome no topo, imagem do produto no centro, nome do produto em destaque, descrição do cupom menos destacada, e preço proeminente (formato "R$ XX,XX") na base.
 

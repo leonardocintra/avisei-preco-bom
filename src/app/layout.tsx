@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Achei Preço BOM!",
-  description: "Melhores achadinhos de preços na internet, com base em dados de histórico de preços.",
+  title: "Avisei Preço BOM!",
+  description: "Te avisamos dos melhores achadinhos de preços na internet, com base em dados de histórico de preços.",
 };
 
 export default function RootLayout({
