@@ -20,8 +20,8 @@
 
 ## 4. Validação e qualidade
 
-- [ ] 4.1 Rodar LSP diagnostics em `src/components/product-card.tsx`, `src/lib/types.ts` e `src/app/page.tsx` — nenhum erro
-- [ ] 4.2 Rodar `npx next build` (ou `npm run build`) — build sem erros
-- [ ] 4.3 Rodar `npm run lint` (Biome) — sem novos warnings/errors nos arquivos criados/modificados
-- [ ] 4.4 Verificação visual: rodar `npm run dev`, abrir http://localhost:3000 e confirmar que o card de exemplo aparece com a hierarquia visual da referência `doc/img/cards.png` (preço verde e proeminente, nome do produto em semibold, cupom mais suave)
-- [ ] 4.5 Verificação responsiva: redimensionar a viewport no navegador e confirmar 1 coluna no mobile, 2 em ≥640px e 3 em ≥1024px
+- [x] 4.1 Rodar LSP diagnostics em `src/components/product-card.tsx`, `src/lib/types.ts` e `src/app/page.tsx` — nenhum erro
+- [x] 4.2 Rodar `npx next build` (ou `npm run build`) — build sem erros
+- [x] 4.3 Rodar `npm run lint` (Biome) — sem novos warnings/errors nos arquivos criados/modificados
+- [x] 4.4 Verificação visual: rodar `npm run dev`, abrir http://localhost:3000 e confirmar que o card de exemplo aparece com a hierarquia visual da referência `doc/img/cards.png` (preço verde e proeminente, nome do produto em semibold, cupom mais suave)
+- [x] 4.5 Verificação responsiva: redimensionar a viewport no navegador e confirmar 1 coluna no mobile, 2 em ≥640px e 3 em ≥1024px

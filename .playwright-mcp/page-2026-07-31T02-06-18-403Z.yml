@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - heading "Achei Preço BOM!" [level=1] [ref=e3]
+    - generic [ref=e4]:
+      - article [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]: M
+          - generic [ref=e8]: Magazine Luiza
+        - img "Imagem do produto" [ref=e9]
+        - generic [ref=e13]:
+          - heading "Fone Bluetooth" [level=3] [ref=e14]
+          - paragraph [ref=e15]: 10% OFF no cupom
+        - paragraph [ref=e16]: R$ 89,90
+      - article [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]: M
+          - generic [ref=e20]: Mercado Livre
+        - img "Imagem do produto" [ref=e21]
+        - generic [ref=e25]:
+          - heading "Smartwatch" [level=3] [ref=e26]
+          - paragraph [ref=e27]: Frete grátis
+        - paragraph [ref=e28]: R$ 129,90
+      - article [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: A
+          - generic [ref=e32]: Amazon
+        - img "Imagem do produto" [ref=e33]
+        - generic [ref=e37]:
+          - heading "Caixa de Som" [level=3] [ref=e38]
+          - paragraph [ref=e39]: 15% OFF no cupom
+        - paragraph [ref=e40]: R$ 199,90
+  - button "Open Next.js Dev Tools" [ref=e46] [cursor=pointer]
