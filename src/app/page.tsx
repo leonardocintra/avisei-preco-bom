@@ -1,4 +1,5 @@
 import { ProductCard } from "@/components/product-card";
+import { WhatsappInvite } from "@/components/whatsapp-invite";
 import type { ProductCardData } from "@/lib/types";
 
 const sampleCards: ProductCardData[] = [
@@ -45,7 +46,8 @@ export default function Home() {
       <h1 className="mb-6 text-center text-2xl font-bold text-foreground">
         Avisei Preço BOM!
       </h1>
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <WhatsappInvite />
+      <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {sampleCards.map((card) => (
           <ProductCard key={`${card.id}-${card.productName}`} {...card} />
         ))}
